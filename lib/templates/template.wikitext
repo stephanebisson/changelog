@@ -5,7 +5,7 @@
 ({{previous}} -> {{current}})
 
 {{#commits}}
- * {{message}}
+ * [[{{url}}|{{messageSummary}}]]
 
 {{/commits}}
 

@@ -14,9 +14,11 @@
 		<h2>{{name}}</h2>
 		({{previous}} -> {{current}})
 
+		<ul>
 		{{#commits}}
-		<pre>{{message}}</pre>
+		<li><a href="{{url}}">{{messageSummary}}</a></il>
 		{{/commits}}
+		</ul>
 
 		{{/repos}}
 	</body>
