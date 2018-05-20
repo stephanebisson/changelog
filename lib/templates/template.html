@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<style>
+			body {
+				/*background-color: black;*/
+				/*color: white;*/
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Change Log</h1>
+
+		{{#repos}}
+		<h2>{{name}}</h2>
+		({{previous}} -> {{current}})
+
+		{{#commits}}
+		<pre>{{message}}</pre>
+		{{/commits}}
+
+		{{/repos}}
+	</body>
+</html>

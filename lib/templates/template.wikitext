@@ -1,0 +1,12 @@
+= Change Log =
+
+{{#repos}}
+== {{name}} ==
+({{previous}} -> {{current}})
+
+{{#commits}}
+ * {{message}}
+
+{{/commits}}
+
+{{/repos}}
