@@ -31,3 +31,10 @@ changelog -f html -o changes.html
 ## Configuration
 
 When only some of the dependencies are relevant, they can be specified in a configuration file named `.changelog` at the root of the deploy repo.
+
+```name=.changelog
+kartotherian
+@kartotherian/core
+@kartotherian/babel
+```
+
