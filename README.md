@@ -7,11 +7,17 @@ This works for repos that have their `node_modules` directory committed to sourc
 ## options
 
 -f, --format [STRING]  Format: html, wikitext, wt, json (Default is wikitext)
+
 -t, --token STRING     OAuth token to query github
+
 -r, --rev [STRING]     Revision to compare against current (Default is HEAD^)
+
 -h, --headRev [STRING] Revision to use as current (Default is HEAD)
+
 -l, --limit [INTEGER]  Maximum number of packages to include (Default is 10)
+
 -o, --output STRING    File to output changes to instead of stdout
+
 -c, --config [STRING]  Config file name (Default is .changelog)
 
 ## How to use
